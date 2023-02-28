@@ -19,8 +19,8 @@ jobs:
       - name: Deploy to EB
         uses: einaregilsson/beanstalk-deploy@v18
         with:
-          aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_access_key: ${{ AKIAYDYIFSUS62YETV6U }}
+          aws_secret_key: ${{ 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 }}
           application_name: LearningDocker-gh
           environment_name: Learningdocker-env
           existing_bucket_name: elasticbeanstalk-us-east-1-557826020645
